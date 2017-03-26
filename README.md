@@ -1,5 +1,5 @@
 # docker-php
-Dockerized PHP. Currently using **7.0.12-fpm** version. You can change to whatever you want inside the **Dockerfile**.
+Dockerized PHP. Currently using **7.0.12-fpm** version. You can change to whatever you want inside the **Dockerfile**. With Redis extension installed.
 
 ## Build
 
