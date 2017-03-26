@@ -40,8 +40,6 @@ Create "**php-container/conf.d/site.pool.conf**" file and put below content.
 
 ## Run
 
-"**--volumes-from**" option below required, if some of the site hosts is going to use a PHP container in the same host.
-
     docker run --interactive --tty --name=php --memory=1024m \
         --hostname=php \
         --volume=/path/to/php-container/cron.d:/etc/cron.d \
